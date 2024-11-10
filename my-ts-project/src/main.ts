@@ -22,3 +22,20 @@ let personType : PersonType = {
 }
 
 console.log(personType)
+
+// interface
+// interfaces should be used with an object
+
+interface PersonInterface {
+  name:string, 
+  age:number ,
+  isProgrammer?:boolean
+}
+
+let personInterface : PersonInterface = {
+  name : 'yaman',
+  age : 25,
+  isProgrammer: true
+}
+
+console.log(personInterface)
